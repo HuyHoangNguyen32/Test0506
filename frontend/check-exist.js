@@ -18,7 +18,7 @@ export function checkIfAllEvent1(numberList) {
 // console.log(checkIfAllEvent1([1, 2, 3]));
 // console.log(checkIfAllEvent1([2, 4, 6]));
 
-// v2 : test
+// v2 : fix code
 export function checkIfAllEvent2(numberList) {
   if (!Array.isArray(numberList) || numberList.length === 0) return false;
 
