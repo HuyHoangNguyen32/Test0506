@@ -10,7 +10,7 @@ describe("checkIfAllEvent1()", () => {
   });
 
   test("should return false when array is empty", () => {
-    expect(checkIfAllEvent1([])).toBe(true);
+    expect(checkIfAllEvent1([])).toBe(false);
   });
 
   test("should return false when array has no even number", () => {

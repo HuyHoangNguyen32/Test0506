@@ -21,7 +21,6 @@ jobs:
         with:
           node-version: 18.x
 
-      # - run: npm init
       - run: yarn add --dev jest
       - run: yarn add --dev babel-jest @babel/core @babel/preset-env
       - run: npm run test
@@ -30,5 +29,5 @@ jobs:
         if: always()
         with:
           name: coverage
-          path: frontend/coverage/**
+          path: coverage/**
           retention-days: 5
