@@ -1,4 +1,4 @@
-// v1 : fullcode
+// v1 : full code
 export function checkIfAllEvent1(numberList) {
   if (!Array.isArray(numberList) || numberList.length === 0) return false;
 
