@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: 18.x
 
-      - run: npm init
+      # - run: npm init
       - run: npm run test
 
       - uses: actions/upload-artifact@v3
