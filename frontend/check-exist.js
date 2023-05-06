@@ -1,4 +1,4 @@
-// v1
+// v1 : fullcode
 export function checkIfAllEvent1(numberList) {
   if (!Array.isArray(numberList) || numberList.length === 0) return false;
 
@@ -18,7 +18,7 @@ export function checkIfAllEvent1(numberList) {
 // console.log(checkIfAllEvent1([1, 2, 3]));
 // console.log(checkIfAllEvent1([2, 4, 6]));
 
-// v2
+// v2 : test
 export function checkIfAllEvent2(numberList) {
   if (!Array.isArray(numberList) || numberList.length === 0) return false;
 
